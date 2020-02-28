@@ -1,12 +1,12 @@
 # Search & Recommendation System
 
 Techniques:
+
 Frontend: HTML/CSS/JavaScript/AJAX
 
 Backend:
-
 Server: Tomcat
-Data Source: Machine API
+Data Source: MachineEquip API
 Java Servlet(rpc):
 servlet for login (/login)
 servlet for logout (/logout)
