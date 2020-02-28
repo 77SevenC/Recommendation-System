@@ -1,19 +1,5 @@
 # Search & Recommendation System
 
-Techniques:
-
-Frontend: HTML/CSS/JavaScript/AJAX
-
-Backend:
-Data Source: MachineEquip API
-Java Servlet(rpc):
-servlet for login (/login)
-servlet for logout (/logout)
-servlet for register (/register)
-servlet for recommend items(/recommendation)
-servlet for browse similar items(/search)
-servlet for check favorites (/history)
-
 
 Background Intro:
 
@@ -35,6 +21,19 @@ We gathered more user data and build user profile such as geo-location, their pr
 Result: This optimized the recommendation algorithm helped to boost users’ search rate by 15% at the end of the quarter. 
 
 
+Techniques:
+
+Frontend: HTML/CSS/JavaScript/AJAX
+
+Backend:
+Data Source: MachineEquip API
+Java Servlet(rpc):
+servlet for login (/login)
+servlet for logout (/logout)
+servlet for register (/register)
+servlet for recommend items(/recommendation)
+servlet for browse similar items(/search)
+servlet for check favorites (/history)
 
 Database: MySQL(JDBC), "machines" table, "users" table, "history" table, "categories" table
 
