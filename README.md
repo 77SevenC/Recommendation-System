@@ -1,5 +1,21 @@
 # Search & Recommendation System
 
+Techniques:
+Frontend: HTML/CSS/JavaScript/AJAX
+
+Backend:
+
+Server: Tomcat
+Data Source: Machine API
+Java Servlet(rpc):
+servlet for login (/login)
+servlet for logout (/logout)
+servlet for register (/register)
+servlet for recommend items(/recommendation)
+servlet for browse similar items(/search)
+servlet for check favorites (/history)
+
+
 Background Intro:
 
 For my internship, I was assigned to work on a personalized item search and recommendation project. It was an interactive web page for users to search mechanical equipment and items based on users’ search history. We used HTML/CSS/JavaScript and AJAX for the front-end page design, and we applied RESTful APIs and Java Servlet for the back-end service. I have mainly worked on the recommendation algorithm to make sure users get recommendations that they are interested in so that users could good user experiences. 
@@ -22,29 +38,7 @@ Result:
 This optimized the recommendation algorithm helped to boost users’ search rate by 15% at the end of the quarter. 
 
 
-Backend:
 
-Server: Tomcat
-Data Source: Machine API
-Java Servlet(rpc):
-servlet for login (/login)
-servlet for logout (/logout)
-servlet for register (/register)
-servlet for recommend items(/recommendation)
-servlet for browse similar items(/search)
-servlet for check favorites (/history)
+Database: MySQL(JDBC), "machines" table, "users" table, "history" table, "categories" table
 
 
-Database: MySQL(JDBC)
-
-"machines" table
-"users" table
-"history" table
-"categories" table
-
-Frontend:
-
-HTML
-CSS
-JavaScript
-AJAX
