@@ -3,7 +3,7 @@
 
 Background Intro:
 
-For my internship, I was assigned to work on a personalized item search and recommendation project. It was an interactive web page for users to search mechanical equipment and items based on users’ search history. We used HTML/CSS/JavaScript and AJAX for the front-end page design, and we applied RESTful APIs and Java Servlet for the back-end service. I have mainly worked on the recommendation algorithm to make sure users get recommendations that they are interested in so that users could good user experiences. 
+I was assigned to work on a personalized item search and recommendation project. It was an interactive web page for users to search mechanical equipment and items based on users’ search history. We used HTML/CSS/JavaScript and AJAX for the front-end page design, and we applied RESTful APIs and Java Servlet for the back-end service. I have mainly worked on the recommendation algorithm to make sure users get recommendations that they are interested in so that users could good user experiences. 
 
 
 Problem:
