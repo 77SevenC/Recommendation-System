@@ -11,7 +11,7 @@ import java.util.Set;
 
 import db.DBConnection;
 import db.DBConnectionFactory;
-import entity.Event;
+import entity.Item;
 
 
 public class RecommendationContentBased {
