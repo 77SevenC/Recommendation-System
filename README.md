@@ -11,10 +11,12 @@ At the beginning of first, the project was developed to use history-based recomm
 
 
 Action:
+
 I did research on user-based (similarity of users) and item-based recommendation system, (similarity of items). I compared their pros and coms and trade-offs. Eventually, I decided to optimize our history-based recommendation algorithm to history + user-based recommendation algorithm. Basically, the user-based recommendation is one type of Collaborative Filtering that calculates the similarity of users and then recommend items. Collaborative filtering takes advantage of user's past behavior as well as decisions made by similar users or friends of the user.
 
 We gathered more user data and build user profile such as geo-location, their preferred serving process, expected products, etcs, so that we can match our new users with existing users if they share similarity in their user profile. If they do share similarities, we can recommend items to our new users based on commonality of the user profiles. Therefore, our new users are more possible to receive recommendations that they are interested in. 
 
 
 Result:
+
 This optimized the recommendation algorithm helped to boost users’ search rate by 15% at the end of the quarter. 
