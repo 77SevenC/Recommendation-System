@@ -3,7 +3,7 @@ package db;
 import java.util.List;
 import java.util.Set;
 
-import entity.Event;
+import entity.Item;
 
 public interface DBConnection {
 	/**
@@ -33,7 +33,7 @@ public interface DBConnection {
 	 * @param userId
 	 * @return itemIds
 	 */
-	public Set<String> getFavoriteIds(String userId);
+	public Set<String> getFavoritemIds(String userId);
 
 	/**
 	 * Get the favorite item for a user.
@@ -52,16 +52,16 @@ public interface DBConnection {
 	public Set<String> getCategories(String itemId);
 
 	/**
-	 * Search events near a geolocation and a term (optional).
+	 * Search items near a size and a term (optional).
 	 * 
 	 * @param userId
-	 * @param latxf
-	 * @param lon
+	 * @param height
+	 * @param width
 	 * @param term
 	 *            (Nullable)
-	 * @return list of events
+	 * @return list of items
 	 */
-	public List<Item> searchItem(double lat, double lon, String term);
+	public List<Item> searchItem(double height, double width, String term);
 
 	/**
 	 * Save event into db.
