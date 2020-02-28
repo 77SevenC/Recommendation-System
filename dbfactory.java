@@ -20,8 +20,5 @@ public class DBConnectionFactory {
 
 	public static DBConnection getConnection() {
 		return getConnection(DEFAULT_DB);
-	}
-
-	
-
+	}	
 }
