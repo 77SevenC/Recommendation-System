@@ -22,22 +22,28 @@ Result:
 This optimized the recommendation algorithm helped to boost users’ search rate by 15% at the end of the quarter. 
 
 
-Backend
+Backend:
+
 Server: Tomcat
-Data Source: Ticketmaster API
+Data Source: Machine API
 Java Servlet(rpc):
 servlet for login (/login)
 servlet for logout (/logout)
 servlet for register (/register)
-servlet for recommend events(/recommendation)
-servlet for browse nearby events(/search)
+servlet for recommend items(/recommendation)
+servlet for browse similar items(/search)
 servlet for check favorites (/history)
+
+
 Database: MySQL(JDBC)
-"events" table
+
+"machines" table
 "users" table
 "history" table
 "categories" table
-Frontend
+
+Frontend:
+
 HTML
 CSS
 JavaScript
