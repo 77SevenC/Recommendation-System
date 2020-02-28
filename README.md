@@ -22,10 +22,8 @@ Result: This optimized the recommendation algorithm helped to boost users’ sea
 
 
 Techniques:
-
-Frontend: HTML/CSS/JavaScript/AJAX
-
-Backend:
+- Frontend: HTML/CSS/JavaScript/AJAX
+- Backend:
 Data Source: MachineEquip API
 Java Servlet(rpc):
 servlet for login (/login)
@@ -35,6 +33,6 @@ servlet for recommend items(/recommendation)
 servlet for browse similar items(/search)
 servlet for check favorites (/history)
 
-Database: MySQL(JDBC), "machines" table, "users" table, "history" table, "categories" table
+- Database: MySQL(JDBC), "machines" table, "users" table, "history" table, "categories" table
 
 
