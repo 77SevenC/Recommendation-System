@@ -39,10 +39,10 @@ public class RecommendationContentBased {
 		// Step 3, search based on category, filter out favorite items
 		Set<String> visitedItemIds = new HashSet<>();
 		for (Entry<String, Integer> category : categoryList) {
-			List<Event> events = connection.searchItem(lat, lon, category.getKey());
+			List<Item> items = connection.searchItem(lat, lon, category.getKey());
 			
-			for (Event event : events) {
-				if (!favoritedEventIds.contains(event.getId()) && !visitedEventIds.contains(event.getId())) {
+			for (Event item : items) {
+				if (!favoritedItemIds.contains(item.getId()) && !visitedItemIds.contains(item.getId())) {
 					recommendedEvents.add(item);
 					visitedItemIds.add(event.getId());
 				}
