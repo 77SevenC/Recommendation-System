@@ -20,3 +20,25 @@ We gathered more user data and build user profile such as geo-location, their pr
 Result:
 
 This optimized the recommendation algorithm helped to boost users’ search rate by 15% at the end of the quarter. 
+
+
+Backend
+Server: Tomcat
+Data Source: Ticketmaster API
+Java Servlet(rpc):
+servlet for login (/login)
+servlet for logout (/logout)
+servlet for register (/register)
+servlet for recommend events(/recommendation)
+servlet for browse nearby events(/search)
+servlet for check favorites (/history)
+Database: MySQL(JDBC)
+"events" table
+"users" table
+"history" table
+"categories" table
+Frontend
+HTML
+CSS
+JavaScript
+AJAX
